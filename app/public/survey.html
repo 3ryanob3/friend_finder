@@ -206,8 +206,7 @@
             // Ajax call for receiving response after POST req
             $.post(currentURL + "/api/friends", newUser, function (data) {
                 $("#bestFriend").text(data.name);
-                $("#bestFriendPhoto").attr("src", data.photo);
-                $("#bestFriendModal").modal("toggle");
+             
             });
         } else {
             // If a required field is missing, show alert
