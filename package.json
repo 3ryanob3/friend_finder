@@ -18,6 +18,6 @@
   "homepage": "https://github.com/3ryanob3/friend_finder#readme",
   "dependencies": {
     "express": "^4.17.1",
-    "gitignore": "^0.6.0"
+    "gitignore": "^0.6.0"     
   }
 }
